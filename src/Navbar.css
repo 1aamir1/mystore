@@ -1,0 +1,44 @@
+.menu
+{
+ 
+  display: flex;
+  text-decoration: none;
+  justify-content: space-evenly;
+  position: relative;
+  border-bottom: 5px solid palevioletred;;
+  box-shadow: 5px 5px 5px black;
+  
+  
+}
+a
+{
+  margin: 30px;
+  
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+  
+.navbar:hover {
+    
+      color: palevioletred;
+      border-top: 5px solid palevioletred;
+    }
+
+p:hover {
+    
+      color: palevioletred;
+      border-top: 5px solid palevioletred;
+      transition: all 0.5s ease-in-out;
+    }
